@@ -97,11 +97,11 @@ $.setAttribute(name, value)(element)
 // gets the specified attribute. Best used in higher-order functions like map
 $.getAttribute(name)(element)
 
-// sets the innerText of the element. Best used in higher-order functions like
+// sets the textContent of the element. Best used in higher-order functions like
 // forEach
 $.setText(text)(element)
 
-// gets the innerText of the element. Best used in higher-order functions like
+// gets the textContent of the element. Best used in higher-order functions like
 // map
 $.getText(element)
 
